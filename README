@@ -1,3 +1,9 @@
+These are the files from my October 2013 Central Ohio Python Users Group meeting.
+
+This presentation was an introduction to Python image processing using PIL and
+matplotlib. It also talked a little about some nifty Python features like the
+enummerate built-in.
+
 You will need PIL, matplotlib, and ImageMagick (at least on Linux) to
 run these programs.
 
@@ -8,3 +14,4 @@ To make a movie out of the individual images generated, I ran ffmpeg
 with defaults:
 
 ffmpeg -i done/%d.png movie.mp4
+
