@@ -2,7 +2,7 @@ These are the files from my October 2013 Central Ohio Python Users Group meeting
 
 This presentation was an introduction to Python image processing using PIL and
 matplotlib. It also talked a little about some nifty Python features like the
-enummerate built-in.
+enumerate built-in.
 
 You will need PIL, matplotlib, and ImageMagick (at least on Linux) to
 run these programs.
@@ -18,4 +18,24 @@ ffmpeg -i done/%d.png movie.mp4
 The movie shown in the presentation can be viewed here:
 
 http://youtu.be/hNAMsyzoW3A
+
+
+Technologies introduced:
+
+PIL, specifically the pillow fork, for image manipulation:
+    Code: https://github.com/python-imaging/Pillow
+    Docs: http://pillow.readthedocs.org/en/latest/
+
+Matplotlib, for graphing: http://matplotlib.org/
+
+Built-in Python modules os, os.path, and fnmatch:
+    os:      http://docs.python.org/2/library/os.html
+    os.path: http://docs.python.org/2/library/os.path.html
+    fnmatch: http://docs.python.org/2/library/fnmatch.html
+
+Unpacking list into a set of arguments to a function:
+http://docs.python.org/2/tutorial/controlflow.html#unpacking-argument-lists
+
+The enumerate built-in:
+http://docs.python.org/2/library/functions.html#enumerate
 
