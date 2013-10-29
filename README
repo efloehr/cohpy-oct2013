@@ -15,3 +15,7 @@ with defaults:
 
 ffmpeg -i done/%d.png movie.mp4
 
+The movie shown in the presentation can be viewed here:
+
+http://youtu.be/hNAMsyzoW3A
+
