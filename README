@@ -1,0 +1,10 @@
+You will need PIL, matplotlib, and ImageMagick (at least on Linux) to
+run these programs.
+
+For PIL, I would recommend the pillow fork, as it is the more maintained
+version.
+
+To make a movie out of the individual images generated, I ran ffmpeg
+with defaults:
+
+ffmpeg -i done/%d.png movie.mp4
